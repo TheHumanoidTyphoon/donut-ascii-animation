@@ -23,7 +23,7 @@ After calculating the position and brightness of each pixel, the function prints
 The main function simply calls the `draw_donut` function, which generates the ASCII art animation. The `if __name__ == "__main__"` line ensures that the main function is only called if the program is run directly (as opposed to being imported as a module).
 
 ## Contributing 
-If you have any suggestions for improving the program or finding bugs, please submit an [issue]() or pull request on the GitHub repository.
+If you have any suggestions for improving the program or finding bugs, please submit an [issue](https://github.com/TheHumanoidTyphoon/donut-ascii-animation/issues) or pull request on the GitHub repository.
 
 ## License 
 This program is licensed under the MIT License. See the [`LICENSE`](https://github.com/TheHumanoidTyphoon/donut-ascii-animation/blob/main/LICENSE) file for more details.
