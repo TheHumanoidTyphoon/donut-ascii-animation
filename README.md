@@ -1,6 +1,9 @@
 # ASCII Art Donut 
 This program generates an ASCII art animation of a rotating donut. The animation is created using mathematical formulas to calculate the position and brightness of each pixel in the donut, and printing the pixels to the console using escape codes.
 
+## Preview
+<img width=100% src="donut-preview.gif">
+
 ## Getting Started 
 To run the program, make sure you have Python 3 installed on your computer. So, if you haven't already downloaded it, kindly download it from [here](https://www.python.org/downloads/). Then, download the `donut.py` file and open it in a Python IDE or run it from the command line using the command python `donut.py`.
 
