@@ -22,10 +22,10 @@ Inside the loop, the function clears the pixels and `z_buffer` lists and calcula
 
 After calculating the position and brightness of each pixel, the function prints the pixels list to the console using escape codes (`"\033[H"` and `sys.stdout.flush()`). Finally, the function updates the `angle1` and `angle2` variables for the next iteration of the loop.
 
-**Note:** This program currently generates multiple donuts instead of just one rotating donut, and the code could use improvement in this regard. Additionally, if you would like to change the resolution of the donut, the relevant code can be found in the `draw_donut` function, where the variables `X` and `Y` are set to control the width and height of the donut.
-
 ## Running the Program 
 The main function simply calls the `draw_donut` function, which generates the ASCII art animation. The `if __name__ == "__main__"` line ensures that the main function is only called if the program is run directly (as opposed to being imported as a module).
+
+**Note:** This program currently generates multiple donuts instead of just one rotating donut, and the code could use improvement in this regard. Additionally, if you would like to change the resolution of the donut, the relevant code can be found in the `draw_donut` function, where the variables `X` and `Y` are set to control the width and height of the donut.
 
 ## Contributing 
 If you have any suggestions for improving the program or finding bugs, please submit an [issue](https://github.com/TheHumanoidTyphoon/donut-ascii-animation/issues) or pull request on the [GitHub repository](https://github.com/TheHumanoidTyphoon/donut-ascii-animation).
